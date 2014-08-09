@@ -19,8 +19,20 @@ $(document).ready(function() {
 		});
 
 		// get additional staff info
+		/*
 		$.ajax({
-			url: "json/staff.json",
+			url: "http://rawgit.com/agraebe/hubhacks-challenge-4/master/json/staff.json",
+			type: "GET",
+			dataType: "json",
+			success: function (staff) {
+				console.log(staff);
+			}
+		});
+		*/
+
+		//get additional milestone info
+		$.ajax({
+			url: "http://rawgit.com/agraebe/hubhacks-challenge-4/master/json/milestones.json",
 			type: "GET",
 			dataType: "json",
 			success: function (staff) {
