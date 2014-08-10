@@ -286,5 +286,13 @@
     "Description":"Completed",
     "Duration":"",
     "Contact":""
+  },
+  {
+    "Milestone":"Processing",
+    "Status":"Processing",
+    "WhoPerforming":"",
+    "Description":"We're taking a look at your application now. Stay tuned for more details.",
+    "Duration":"",
+    "Contact":"For questions about your permit at this stage, call 617-635-5300."
   }
 ]
